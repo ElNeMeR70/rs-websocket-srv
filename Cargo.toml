@@ -1,0 +1,13 @@
+[package]
+name = "rs-websocket-srv"
+version = "1.0.0"
+edition = "2021"
+description = "WebSocket server with RFC 6455 handshake and frame parser"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-websocket-srv"
+keywords = ["rust", "websocket", "server", "networking", "protocols"]
+
+[[bin]]
+name = "rs_websocket_srv"
+path = "main.rs"
